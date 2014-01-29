@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sudo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Sudo.res" /d "NDEBUG" "G:\My stuff\带回家的_代码\复件 (4) Sudo\Sudo.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP69A.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Sudo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\My stuff\带回家的_代码\复件 (4) Sudo\MainFrm.cpp"
+"G:\My stuff\带回家的_代码\复件 (4) Sudo\Sudo.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP69A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP69B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Sudo.pdb" /machine:I386 /out:"Release/Sudo.exe" 
+".\Release\DibSection.obj"
+".\Release\GameView.obj"
+".\Release\MainFrm.obj"
+".\Release\MapManager.obj"
+".\Release\Sprite.obj"
+".\Release\StdAfx.obj"
+".\Release\Sudo.obj"
+".\Release\Sudo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP69B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+G:\My stuff\带回家的_代码\复件 (4) Sudo\Sudo.rc (112): warning RC4206 : title string too long; truncated at 256
+Compiling...
+MainFrm.cpp
+Sudo.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/Sudo.bsc"  ".\Release\StdAfx.sbr" ".\Release\DibSection.sbr" ".\Release\GameView.sbr" ".\Release\MainFrm.sbr" ".\Release\MapManager.sbr" ".\Release\Sprite.sbr" ".\Release\Sudo.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Sudo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
